@@ -18,6 +18,12 @@ cube(`Customers`, {
   },
   
   dimensions: {
+    customer_id: {
+      sql: `customer_id`,
+      type: `string`,
+      primaryKey: true
+    },
+    
     firstName: {
       sql: `first_name`,
       type: `string`

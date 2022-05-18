@@ -21,6 +21,12 @@ cube(`Orders`, {
   },
   
   dimensions: {
+    order_id: {
+      sql: `order_id`,
+      type: `string`,
+      primaryKey: true
+    },
+    
     status: {
       sql: `status`,
       type: `string`
