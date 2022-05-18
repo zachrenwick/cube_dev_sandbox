@@ -53,8 +53,8 @@ cube(`Orders`, {
       type: `string`
     },
     
-    amount: {
-      sql: `amount`,
+    customer_id: {
+      sql: `customer_id`,
       type: `string`
     },
     
