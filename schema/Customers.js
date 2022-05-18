@@ -21,7 +21,8 @@ cube(`Customers`, {
     customer_id: {
       sql: `customer_id`,
       type: `string`,
-      primaryKey: true
+      primaryKey: true,
+      shown: true
     },
     
     firstName: {
